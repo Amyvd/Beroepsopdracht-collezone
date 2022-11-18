@@ -1,0 +1,36 @@
+.navigation{
+    background:linear-gradient(to bottom right, #F49D1A, #EF9A53);
+    height:10rem;
+    width:100%;
+}
+.navigation__ullist{
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    float: right;
+    gap:5rem;
+    padding:2rem;
+
+}
+.navigation__items{
+    color:white;
+    font-size: 2.5rem;
+}
+.navigationList__items{
+    text-decoration: none;
+    color:white;
+}
+.navigation__button{
+    width:12.5rem;
+    height:5rem;
+    font-size: 200%;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color:#0C6FF9;
+    color:#eee;
+
+}
