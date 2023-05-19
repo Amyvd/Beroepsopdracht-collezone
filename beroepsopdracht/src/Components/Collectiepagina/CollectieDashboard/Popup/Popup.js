@@ -36,26 +36,29 @@ const Popup = (props) => {
   }
 
   return (
-    <article className="popup">
-      <div className="popup__wrapper">
-        <img className="popup__image" src={props.cardClicked.img} alt="" />
-        <label htmlFor="name" className="popup__label">
-          Naam
-        </label>
-        <input
-          onChange={handleInputChange}
-          value={input}
-          type="text"
-          className="popup__input"
-          id="name"
-        />
-        <p className="popup__price">Prijs: {props.cardClicked.price}</p>
-        <p className="popup__beschrijving">
-          Beschrijving: {props.cardClicked.description}
-        </p>
-        {button}
-      </div>
-    </article>
+    <>
+   
+      <article className="popup">
+        <section className="popup__wrapper">
+          <img className="popup__image" src={props.cardClicked.img} alt="" />
+          <label htmlFor="name" className="popup__label">
+            Naam
+          </label>
+          <input
+            onChange={handleInputChange}
+            value={input}
+            type="text"
+            className="popup__input"
+            id="name"
+          />
+          <p className="popup__price">Prijs: {props.cardClicked.price}</p>
+          <p className="popup__beschrijving">
+            Beschrijving: {props.cardClicked.description}
+          </p>
+          {button}
+        </section>
+      </article>
+    </>
   );
 };
 

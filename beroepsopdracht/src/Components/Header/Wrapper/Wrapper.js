@@ -4,7 +4,7 @@ const Wrapper = (props) => {
         <article className="wrapper">
             <div className="wrapper__content">
                 <header className="wrapper__header">
-                    <h1 className="wrapper__title">Title</h1>
+                    <h1 className="wrapper__title">Collezone</h1>
                 </header>
                 <section className="wrapper__section">
                     <p className="wrappersection__paragraf">Ben jij opzoek naar Speciale Custom kleding. Koopt het nu Bij ons!!</p>

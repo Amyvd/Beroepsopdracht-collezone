@@ -11,6 +11,7 @@ const Dashboard = () => {
     const [open, setOpen] = useState(true);
     const [cardClicked, setCardClicked] = useState({});
     const [editMode, setEditMode] = useState(false);
+    const [filter, setFilter] = useState([]);
 
     useEffect(() => {
         setProductCards(productsObject.products);
@@ -61,11 +62,14 @@ const Dashboard = () => {
 
     console.table(cardClicked);
 
+   
+
     if (open === true) {
         return (
             <>
                 <article className="dashboard">
                     <Popup
+                       
                         editButtonClicked={editButtonClicked}
                         editMode={editMode}
                         cardClicked={cardClicked}
@@ -85,7 +89,7 @@ const Dashboard = () => {
     }
 
     return (
-        <section>
+        <section className="dashboard__wrapper">
             <Popup
                 editButtonClicked={editButtonClicked}
                 editMode={editMode}
