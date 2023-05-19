@@ -1,36 +1,83 @@
-.navigation{
-    background:linear-gradient(to bottom right, #F49D1A, #EF9A53);
-    height:10rem;
-    width:100%;
+.navigation {
+    background: linear-gradient(to bottom right, #F49D1A, #EF9A53);
+    height: 8rem;
+    width: 100%;
 }
-.navigation__ullist{
+
+.navigation__ullist {
     list-style: none;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    flex-wrap:wrap;
     text-align: center;
     float: right;
-    gap:5rem;
-    padding:2rem;
+    gap: 3rem;
+    padding: 2rem;
 
 }
-.navigation__items{
-    color:white;
+
+.navigation__items {
+    color: white;
+}
+
+.navigationList__items {
+    text-decoration: none;
+    color: white;
     font-size: 2.5rem;
 }
-.navigationList__items{
-    text-decoration: none;
-    color:white;
-}
-.navigation__button{
-    width:12.5rem;
-    height:5rem;
+
+.navigation__button {
+    padding:1rem 4rem;
     font-size: 200%;
     border: none;
     border-radius: 2rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    background-color:#0C6FF9;
-    color:#eee;
+    background-color: #084FFF;
+    color: #eee;
+    text-decoration: none;
 
+}
+
+@media  screen and (max-width:1000){
+    .navigation {
+        background: linear-gradient(to bottom right, #F49D1A, #EF9A53);
+        height: 8rem;
+        width: 100%;
+    }
+    
+    .navigation__ullist {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        float: right;
+        padding: 2rem;
+    }
+    
+    .navigation__items {
+        color: white;
+    }
+    
+    .navigationList__items {
+        text-decoration: none;
+        color: white;
+        font-size: 2.5rem;
+    }
+    
+    .navigation__button {
+        padding:1rem 4rem;
+        font-size: 200%;
+        border: none;
+        border-radius: 2rem;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        background-color: #084FFF;
+        color: #eee;
+        text-decoration: none;
+    
+    }
+    
 }

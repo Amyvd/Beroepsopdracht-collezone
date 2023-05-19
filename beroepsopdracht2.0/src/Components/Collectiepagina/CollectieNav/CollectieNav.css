@@ -1,0 +1,33 @@
+.collectieNavigation{
+    background: linear-gradient(to bottom right, #F49D1A, #EF9A53);
+    height: 8rem;
+    width: 100%;
+}
+
+.collectieNavigation__list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    float: right;
+    gap: 5rem;
+    padding: 2rem;
+}
+
+.collectieNavigation__listItem{
+    color:white;
+    font-size:3rem;
+}
+
+.collectieNavigation__listItem__Link{
+    text-decoration: none;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.collectieNavigation__buttonDelen{
+    color:white;
+    
+}

@@ -1,0 +1,51 @@
+.Contactmainpagesection{
+    min-height:100%;
+    width:100%;
+    background: linear-gradient(to bottom right, #F49D1A, #EF9A53);
+}
+.Contactmainpagesection__title{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    padding:5rem;
+    font-size: 5rem;
+}
+.contactform{
+    padding:5rem;
+    text-align: left;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:2rem;
+}
+.contactformlabel__invulform{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contactform__label{
+    font-size: 3rem; 
+    padding-top:5rem;
+    text-align: left;
+}
+
+.contactform__input{
+    width:35rem;
+    height:4rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.contactform__button{
+    border:none;
+    padding:1.5rem 3rem;
+    border-radius: 1.5rem;
+    background-color:#084FFF;
+    color:white;
+    font-size:200%;
+    
+}

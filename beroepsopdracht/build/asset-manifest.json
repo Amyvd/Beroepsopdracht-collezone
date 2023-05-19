@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.53e2e767.css",
+    "main.js": "/static/js/main.19fb756d.js",
+    "static/media/pexels-soubhagya-maharana-5245865.jpg": "/static/media/pexels-soubhagya-maharana-5245865.9401f919aba147b8dd5b.jpg",
+    "static/media/product8.jpg": "/static/media/product8.f2f79ac7ebde96c88c4e.jpg",
+    "static/media/background2.jpg": "/static/media/background2.b9d020d5311cc29b061c.jpg",
+    "static/media/product6.jpg": "/static/media/product6.d53d101d720c163d5af9.jpg",
+    "static/media/product5.jpg": "/static/media/product5.ebb6c9ace2a89414e3a0.jpg",
+    "static/media/product2.jpg": "/static/media/product2.dffdfa3f0f28e5cddcb5.jpg",
+    "static/media/product4.jpg": "/static/media/product4.688cc19bcdffe2d60742.jpg",
+    "static/media/product3.jpg": "/static/media/product3.26b6e67c4fc9c40728cc.jpg",
+    "static/media/product7.jpg": "/static/media/product7.b10c8f4d6a450938890a.jpg",
+    "static/media/product1.jpg": "/static/media/product1.c632f1fc46fcbb5a9e6c.jpg",
+    "static/media/overonssection.jpg": "/static/media/overonssection.1deccb6df619d67a267e.jpg",
+    "static/media/spotify.png": "/static/media/spotify.354b4fb0550ea999320c.png",
+    "static/media/badge.png": "/static/media/badge.eb1e61cfb72f1a31ea7a.png",
+    "static/media/google.png": "/static/media/google.e12914ad8afda3f6f2e8.png",
+    "static/media/instagram.png": "/static/media/instagram.776d16d0e9daa177afd5.png",
+    "static/media/whatsapp.png": "/static/media/whatsapp.fdd4b7007148bcf6ce48.png",
+    "static/media/product-return.png": "/static/media/product-return.ba3ca0b4ac709e88e386.png",
+    "static/media/backgroundpriceSectionMainpagepng.png": "/static/media/backgroundpriceSectionMainpagepng.4de67bf0d65e09d12f28.png",
+    "static/media/tshirt.png": "/static/media/tshirt.9e6b761faeeb551cd06a.png",
+    "static/media/login.svg": "/static/media/login.621bab7d2ed9cf643ea5.svg",
+    "static/media/wave.svg": "/static/media/wave.7f7e1f8f7e309d9a6936a4b48038e911.svg",
+    "index.html": "/index.html",
+    "main.53e2e767.css.map": "/static/css/main.53e2e767.css.map",
+    "main.19fb756d.js.map": "/static/js/main.19fb756d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53e2e767.css",
+    "static/js/main.19fb756d.js"
+  ]
+}

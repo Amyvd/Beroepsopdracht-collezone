@@ -1,0 +1,32 @@
+.loginbutton__socials {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    gap: 1rem;
+    align-items: center;
+    padding: 2rem;
+
+}
+
+.button__social {
+    width: 10rem;
+    height: 5rem;
+    border: none;
+    border-radius: 2rem;
+
+}
+
+.button__social:hover{
+    cursor: pointer;
+    transform: scale(1.09);
+}
+
+.figure__apple{
+    filter: inherit;
+}
+
+.button__figure__Image {
+    height: 4rem;
+    width: auto;
+
+}

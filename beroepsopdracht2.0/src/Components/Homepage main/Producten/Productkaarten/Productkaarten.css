@@ -1,0 +1,39 @@
+.productkaartSection{
+    width:40rem;
+    min-height:50rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    gap:10rem;
+    background-color:#FAF6F4;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px 0px;
+    transition: all .2s ease-in-out;
+}
+.productKaarten{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    padding:2rem;
+}
+.productenKaarten__header{
+    height:40%;
+    width:auto;
+}
+
+.productenKaarten__header__Title{
+    font-size:2rem;
+    text-align: center;
+    padding:1.5rem;
+}
+
+.productenKaarten__header__figure__image{
+    height:45rem;
+    width:auto;
+    border-radius: 2rem;
+}
+
+.productenKaarten__Section{
+    font-size: 1.5rem;
+} 

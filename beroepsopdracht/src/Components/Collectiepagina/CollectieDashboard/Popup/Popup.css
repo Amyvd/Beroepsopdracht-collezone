@@ -1,0 +1,132 @@
+.Wrapper__popup{
+    display:flex;
+    flex-direction:column;
+    gap:4rem
+    
+}
+.popup{
+    max-width: 60rem;
+    max-height: 60rem;
+    background: linear-gradient(to bottom right, #F49D1A, #EF9A53);
+    border-radius: 1rem;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:4rem;
+    gap: 5rem;
+}
+
+.popup__label{
+    font-size: 220%;
+    color:#eee;
+}
+.popup__wrapper{
+    display:flex;
+    flex-direction: column;
+    gap:2rem;
+}
+
+.popup__image{
+    width:30rem;
+    height:auto;
+    object-fit: contain;
+    border-radius: 2rem;
+    border:none;
+}
+.popup__image img{
+    width:10rem;
+    height:60rem;
+    object-fit: contain;
+}
+
+.popup__input{
+    background:none;
+    border:none;
+    color: #eee;
+    font-size: 200%;
+    border-bottom: 0.2rem solid #eee;
+    outline:none;
+}
+
+.popup__button{
+    width: 12.5rem;
+    height:5rem;
+    font-size: 200%;
+    font-family: sans-serif;
+    border:none;
+    color: #eee;
+    border-radius:5rem;
+    background-color: #084FFF;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    transition: 0.6s all;
+}
+
+.popup__button:hover{
+    cursor:pointer;
+    transform:scale(1.11);
+}
+
+@media screen and (max-width:400){
+    .popup{
+        max-width: 30rem;
+        max-height: 30rem;
+        background: linear-gradient(to bottom right, #F49D1A, #EF9A53);
+        border-radius: 1rem;
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        padding:4rem;
+        gap: 5rem;
+    }
+    
+    .popup__label{
+        font-size: 220%;
+        color:#eee;
+    }
+    .popup__wrapper{
+        display:flex;
+        flex-direction: column;
+        gap:2rem;
+    }
+    
+    .popup__image{
+        width:30rem;
+        height:auto;
+        object-fit: contain;
+        border-radius: 2rem;
+        border:none;
+    }
+    .popup__image img{
+        width:10rem;
+        height:60rem;
+        object-fit: contain;
+    }
+    
+    .popup__input{
+        background:none;
+        border:none;
+        color: #eee;
+        font-size: 200%;
+        border-bottom: 0.2rem solid #eee;
+        outline:none;
+    }
+    
+    .popup__button{
+        width: 12.5rem;
+        height:5rem;
+        font-size: 200%;
+        font-family: sans-serif;
+        border:none;
+        color: #eee;
+        border-radius:5rem;
+        background-color: #084FFF;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+        transition: 0.6s all;
+    }
+    
+    .popup__button:hover{
+        cursor:pointer;
+        transform:scale(1.11);
+    }
+     
+}

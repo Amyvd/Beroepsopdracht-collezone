@@ -1,0 +1,46 @@
+.FilterButtons{
+    padding:4rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:3.1rem;
+}
+.FilterButton{
+    padding: 1rem 4rem;
+    font-size: 200%;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    background-color: #084FFF;
+    color: #eee;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.FilterButton:hover{
+    transform:scale(1.1);
+}
+@media screen and (max-width:400) {
+    .FilterButtons{
+        padding:3.5rem;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        gap:4rem;
+    }
+    .FilterButton{
+        padding: 0.5rem 4rem;
+        font-size: 200%;
+        border: none;
+        border-radius: 2rem;
+        box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+        background-color: #084FFF;
+        color: #eee;
+        text-decoration: none;
+        transition: 0.4s;
+    }
+    
+    .FilterButton:hover{
+        transform:scale(1.1);
+    }
+}

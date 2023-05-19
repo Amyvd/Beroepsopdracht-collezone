@@ -1,0 +1,17 @@
+.linesMainpage{
+    height:auto;
+    width:auto;
+    padding-bottom:10rem;
+}
+
+.line2{
+    height:2rem;
+    width:30%;
+    background-color:#413D45;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    opacity: 50%;
+    float:right;
+    
+}

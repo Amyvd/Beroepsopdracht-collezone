@@ -1,0 +1,13 @@
+.uitgelogt{
+    background-color:#eee;
+    height:91.6vh;
+    width:100%;
+    display: flex;
+    font-size:5rem;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+.uitgelogt__emoji{
+    font-size: 10rem;
+}

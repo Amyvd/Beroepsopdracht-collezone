@@ -1,0 +1,49 @@
+.display{
+    width: 50rem;
+    max-height:60rem;
+    background: linear-gradient(to bottom, hsl(0, 0%, 93%), hsl(0, 0%, 83%));
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    align-items: center;
+    border-radius: 0.3rem;
+   
+    position: relative;
+    overflow: hidden;
+    animation-name: popup;
+    animation-duration: 0.8s;
+}
+
+.display__play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 5rem;
+    transform: rotate(45deg);
+    aspect-ratio: 4/1;
+    top: 2rem;
+    right: -5rem;
+    background: linear-gradient(to bottom right, #3F5EFB, #FC466B);
+    color: #eee;
+
+}
+.backlog__display__title>{
+    color:#000;
+
+}
+.backlog__display__image{
+    width:10%;
+}
+
+@keyframes popup{
+    from{
+        transform: translateY(-2rem);
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
