@@ -62,7 +62,7 @@
     font-size:1rem;
 }
 
-.login__button {
+.login__button, .login__button:visited  {
     width: 50rem;
     height: 5rem;
     font-size: 250%;
@@ -71,6 +71,10 @@
     background-color: rgb(10, 99, 224);
     color: white;
     transition: 0.3s;
+}
+.login__button__limk{
+    color: white;
+    text-decoration:none;
 }
 
 .login__button:hover {

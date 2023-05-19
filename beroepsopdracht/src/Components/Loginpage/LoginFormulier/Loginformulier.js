@@ -32,7 +32,7 @@ const Loginformulier = () => {
                 <Link href="" className="forgot__password">forgot password?</Link>
             </form>
             
-            <button className="login__button"><Link to="/collectiepage">Log in </Link></button>
+            <button className="login__button"><Link to="/collectiepage" className="login__button__limk">Log in </Link></button>
             
             
             <InlogSocialbuttons/>

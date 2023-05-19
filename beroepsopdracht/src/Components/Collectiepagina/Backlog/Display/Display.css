@@ -1,14 +1,13 @@
 .display{
-    width: 50rem;
-    max-height:60rem;
+    width: 40rem;
     background: linear-gradient(to bottom, hsl(0, 0%, 93%), hsl(0, 0%, 83%));
+    aspect-ratio: 1/1;
     padding: 4rem;
     display: flex;
     justify-content: center;
-    flex-direction:row;
     align-items: center;
     border-radius: 0.3rem;
-   
+    box-shadow: 0 1rem 2rem 0 rgba(0, 0, 0, 0.3), inset 0 -0.5rem 0.5rem -0.5rem #FC466B;
     position: relative;
     overflow: hidden;
     animation-name: popup;
@@ -28,13 +27,6 @@
     background: linear-gradient(to bottom right, #3F5EFB, #FC466B);
     color: #eee;
 
-}
-.backlog__display__title>{
-    color:#000;
-
-}
-.backlog__display__image{
-    width:10%;
 }
 
 @keyframes popup{

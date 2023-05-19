@@ -1,5 +1,7 @@
 import React from 'react';
 
+import "./sharebutton.css";
+
 const ShareButton = ({ url }) => {
   const handleShare = () => {
     if (navigator.share) {
@@ -14,7 +16,7 @@ const ShareButton = ({ url }) => {
   };
 
   return (
-    <button onClick={handleShare}>
+    <button onClick={handleShare} className="navigationCollect__button">
       Share URL
     </button>
   );

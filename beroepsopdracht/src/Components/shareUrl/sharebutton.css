@@ -1,0 +1,9 @@
+.navigationCollect__button {
+    padding: 1rem 4rem;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #084FFF;
+    color: #eee;
+    text-decoration: none;
+}

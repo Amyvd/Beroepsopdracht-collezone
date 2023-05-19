@@ -13,7 +13,7 @@ const Display = (props) => {
             return (
                 <section className="display" key={backlogProductDisplay.title}>
                     <h2>{backlogProductDisplay.title}</h2>
-                    <img src={backlogProductDisplay.img}/>
+                   
                     <figure className="display__play">Play this!</figure>
                 </section>
             );
@@ -21,7 +21,7 @@ const Display = (props) => {
         return (
             <section key={backlogProductDisplay.title} className="display">
                 <h2 className="backlog__display__title">{backlogProductDisplay.title}</h2>
-                <img src={backlogProductDisplay.img} className="backlog__display__image"></img>
+                
             </section>
         );
     })
