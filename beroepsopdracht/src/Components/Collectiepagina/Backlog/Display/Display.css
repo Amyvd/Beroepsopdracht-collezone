@@ -1,8 +1,8 @@
 .display{
-    width: 40rem;
+    width: 30rem;
     background: linear-gradient(to bottom, hsl(0, 0%, 93%), hsl(0, 0%, 83%));
     aspect-ratio: 1/1;
-    padding: 4rem;
+    padding: rem;
     display: flex;
     justify-content: center;
     align-items: center;

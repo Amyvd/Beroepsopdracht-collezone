@@ -3,22 +3,22 @@
 const ProductData = [
     {
         
-        name: "Low Packages",
+        name: "Low Paket",
         prijs: "€" + "130",
-        beschrijving: ["free clothing", "quality Clothes"],
+        beschrijving: "Gratis KLeding && Kwaliteits Kleding", 
     },
     {
         
-        name: "Premium Packages",
+        name: "Premium Paket",
         prijs: "€" + "130",        
-        beschrijving:  ["free clothing", "quality Clothes", "free Returning", "free Shipping"],
+        beschrijving:  "Gratis KLeding && Kwaliteits Kleding && Gratis Terug Brengen && Gratis Versturen", 
     },
    
     {
         
-        name: "Medium Packages ",
+        name: "Medium Paket ",
         prijs: "€" + "130",
-        beschrijving:  ["free clothing", "quality Clothes", "free Returning"],
+        beschrijving: "Gratis Kleding && Kwaliteits Kleding && Gratis Terug Brengen && Gratis Versturen",
     },
    
 ]

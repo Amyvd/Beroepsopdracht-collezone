@@ -30,10 +30,10 @@ const Footer = () => {
             </div>
             <div className="socialLinks">
                 <ul className="socilalinks__list">
-                    <li className="sociallinks__listitem"><a href=""><img src={facebook} alt="" className="social_images"/></a></li>
-                    <li className="sociallinks__listitem"><a href=""><img src={snapchat} alt="" className="social_images"/></a></li>
-                    <li className="sociallinks__listitem"><a href=""><img src={instagram} alt=""className="social_images" /></a></li>
-                    <li className="sociallinks__listitem"><a href=""><img src={whatsapp} alt="" className="social_images"/></a></li>
+                    <li className="sociallinks__listitem"><a href="https://www.facebook.com/?ref=logo"><img src={facebook} alt="facebook__image" className="social_images"/></a></li>
+                    <li className="sociallinks__listitem"><a href="https://www.facebook.com/?ref=logo"><img src={snapchat} alt="" className="social_images"/></a></li>
+                    <li className="sociallinks__listitem"><a href="https://www.facebook.com/?ref=logo"><img src={instagram} alt=""className="social_images" /></a></li>
+                    <li className="sociallinks__listitem"><a href="https://www.facebook.com/?ref=logo"><img src={whatsapp} alt="" className="social_images"/></a></li>
                 </ul>
             </div>
         </footer>

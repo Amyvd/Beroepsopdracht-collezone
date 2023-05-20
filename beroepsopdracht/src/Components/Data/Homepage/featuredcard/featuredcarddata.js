@@ -6,22 +6,22 @@ import iconRetouneren from "../../../../img/product-return.png";
 const FeaturedcardDatas = [
     {
         Icon: iconClothing,
-        Heading: "Clothing",
+        Heading: " Gratis Kleding",
         Beschrijving: "Streetweare clothing",
     },
     {
         Icon: iconFreeShipping,
-        Heading: "Free Shipping",
+        Heading: "Gratis versturen",
         Beschrijving: "Streetweare clothing",
     },
     {
         Icon: iconQuality,
-        Heading: "Quality Clothes",
+        Heading: "Kwaliteits Kleding",
         Beschrijving: "Streetweare clothing",
     },
     {
         Icon: iconRetouneren,
-        Heading: "Free Returning",
+        Heading: "Gratis terugbrengen",
         Beschrijving: "Streetweare clothing",
     },
 

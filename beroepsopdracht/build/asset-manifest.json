@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2267d21f.css",
-    "main.js": "/static/js/main.1419776b.js",
+    "main.css": "/static/css/main.a6fe5ac1.css",
+    "main.js": "/static/js/main.30d23974.js",
     "static/media/pexels-soubhagya-maharana-5245865.jpg": "/static/media/pexels-soubhagya-maharana-5245865.9401f919aba147b8dd5b.jpg",
     "static/media/product8.jpg": "/static/media/product8.f2f79ac7ebde96c88c4e.jpg",
     "static/media/background2.jpg": "/static/media/background2.b9d020d5311cc29b061c.jpg",
@@ -24,11 +24,11 @@
     "static/media/login.svg": "/static/media/login.621bab7d2ed9cf643ea5.svg",
     "static/media/wave.svg": "/static/media/wave.7f7e1f8f7e309d9a6936a4b48038e911.svg",
     "index.html": "/index.html",
-    "main.2267d21f.css.map": "/static/css/main.2267d21f.css.map",
-    "main.1419776b.js.map": "/static/js/main.1419776b.js.map"
+    "main.a6fe5ac1.css.map": "/static/css/main.a6fe5ac1.css.map",
+    "main.30d23974.js.map": "/static/js/main.30d23974.js.map"
   },
   "entrypoints": [
-    "static/css/main.2267d21f.css",
-    "static/js/main.1419776b.js"
+    "static/css/main.a6fe5ac1.css",
+    "static/js/main.30d23974.js"
   ]
 }

@@ -1,5 +1,5 @@
 /*import afbeeldingen*/
-import OveronssectionAfbeelding from "../../../img/overonssection.jpg";
+
 import "./Overons.css";
 
 const Overons = (props) => {

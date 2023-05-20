@@ -14,7 +14,7 @@ const Contactmainpagesection = () => {
                     <input type="text" placeholder="Email" id="" className="contactform__input contactform__input__email" />
                 </div>
                 <div className="contactformlabel__invulform">
-                    <label htmlFor="" className="contactform__label contactform__label__subjet">Subject:</label>
+                    <label htmlFor="" className="contactform__label contactform__label__subjet">Bericht:</label>
                     <input type="text" placeholder="Subject" id="" className="contactform__input contactform__input__subjet" />
                 </div>
                 <button className="contactform__button">Verzenden</button>
